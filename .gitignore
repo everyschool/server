@@ -23,3 +23,14 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+.gradle/
+gradle/
+.idea/**
+build/
+classes/
+out/
+logs/
+*.iml
+
+src/main/resources/local/*

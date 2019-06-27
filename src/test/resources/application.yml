@@ -1,0 +1,17 @@
+#구현한 app의 정보
+app:
+  name: everyschool
+  description: "everyschool api"
+  character-Encoding: utf8
+  use-unicode: true
+
+#jdbc 연결 설정
+  spring.jpa:
+    database: MYSQL
+
+#logback 설정
+#logging:
+#  config: classpath:logback.xml
+
+#actuator web endpoint 노출 설정.
+#management.endpoints.web.exposure.include: "*"
